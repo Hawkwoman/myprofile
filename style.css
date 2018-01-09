@@ -5,19 +5,14 @@ h1 {
   color:orangered;
 }
 
-p {
+p, ul {
     color:red;
     background-color: lightseagreen;
+    border: thin solid black;
+    height: 200px;
+    width: 200px;
 }
 
 h2 {
-  color:orangered;
-}
-
-ul {
-  background-color:lightseagreen;
-}
-
-li {
   color:orangered;
 }
