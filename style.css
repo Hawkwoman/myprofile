@@ -1,5 +1,23 @@
 /*This is a css stylesheet for myprofile */
 
+/*element styles*/
+h1 {
+  color:orangered;
+}
+
 p {
     color:red;
+    background-color: lightseagreen;
+}
+
+h2 {
+  color:orangered;
+}
+
+ul {
+  background-color:lightseagreen;
+}
+
+li {
+  color:orangered;
 }
