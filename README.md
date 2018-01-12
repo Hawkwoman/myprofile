@@ -1,2 +1,2 @@
 # myprofile
-a simple profile webpage
+a normal profile webpage
