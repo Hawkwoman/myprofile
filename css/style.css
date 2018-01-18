@@ -1,8 +1,16 @@
 /*This is a css stylesheet for myprofile */
 
+/*base layout styles */
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /*element styles*/
 h1 {
   color:orangered;
+  margin-top: 0;
 }
 
 p, ul {
