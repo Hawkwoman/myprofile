@@ -1,12 +1,5 @@
 /*This is a css stylesheet for myprofile */
 
-/*base layout styles */
-
-.wrapper {
-  width: 70%;
-  margin: 0 auto;
-}
-
 /*element styles*/
 h1 {
   color:orangered;
@@ -23,4 +16,22 @@ p, ul {
 
 h2 {
   color:orangered;
+}
+
+/*class styles*/
+
+.main-header {
+  color: white;
+  background-color: lightsalmon;
+  text-align: center;
+}
+
+.main-footer {
+  color: black;
+  background-color: slategrey;
+}
+
+.container { 
+  width: 70%;
+  margin: 0 auto;
 }
