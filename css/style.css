@@ -1,6 +1,11 @@
 /*This is a css stylesheet for myprofile */
 
 /*element styles*/
+
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   color:orangered;
   margin-top: 0;
@@ -18,6 +23,7 @@ h2 {
   color:orangered;
 }
 
+
 /*class styles*/
 
 .main-header {
@@ -32,6 +38,16 @@ h2 {
 }
 
 .container { 
-  width: 70%;
-  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*Media Queries*/
+
+@media (min-width: 769px) {
+ .container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+ }
 }
